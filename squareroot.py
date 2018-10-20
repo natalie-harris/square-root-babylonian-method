@@ -9,7 +9,7 @@ isPosInt = False
 
 #while loop to ask for a positive integer to find the square root
 while isPosInt == False:
-	base = raw_input("What is the base number you want to find the square root of? ")
+	base = input("\nWhat is the base number you want to find the square root of? ")
 	if str.isdigit(str(base)) == True:
 		base = int(base)
 		isPosInt = True
